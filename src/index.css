@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-black-200;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.monda {
+  font-family: "Monda", sans-serif;
+}
+
+.nunito-sans {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.montserrat-alternates {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  border-color: #000 transparent #000 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.table td,
+.table th {
+  @apply py-5 px-8 text-sm;
+}
+
+.table th {
+  text-align: left;
+  @apply border-b text-black-100 border-white-300 font-bold;
+}
+
+.table thead {
+  @apply bg-primary-100;
+}
+
+.table tbody tr:hover {
+  @apply bg-white-200;
+}

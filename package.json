@@ -1,0 +1,59 @@
+{
+  "name": "web-admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.2.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^1.2.0",
+    "chart.js": "^3.9.1",
+    "moment": "^2.29.4",
+    "overlayscrollbars": "^2.0.1",
+    "overlayscrollbars-react": "^0.5.0",
+    "react": "^18.1.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.1.0",
+    "react-hook-form": "^7.39.7",
+    "react-icons": "^4.2.0",
+    "react-number-format": "^5.1.2",
+    "react-paginate": "^8.1.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "sweetalert2": "^11.6.15",
+    "sweetalert2-react-content": "^5.0.7",
+    "use-debounce": "^9.0.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7"
+  }
+}
